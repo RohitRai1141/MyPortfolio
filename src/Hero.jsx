@@ -11,15 +11,15 @@ export default function Hero(){
     const {answerBoxOpen} = useContext(AnswerBoxContext);
     return(
        <div className="hero-container">
-            {!isMobile ? <div className="header">I'm Vivek Prajapati. Creative Technologist.</div> :
-            <div className="typography-self">I'm Vivek Prajapati. <br/>Creative Technologist.</div>
+            {!isMobile ? <div className="header">I'm Rohitrai. Creative Technologist.</div> :
+            <div className="typography-self">I'm Rohitrai.<br/>Creative Technologist.</div>
             }
             <div className="logo-self"></div>
             {!isMobile && <div className="logo-block"></div>}
 
             {isMobile && 
             <div className="Portagonist">
-                 <Slide arrayItems={["Protagonist","","Portagonist",""]}/>
+                 <Slide arrayItems={["DevOpsEngineer","","DevOpsEngineer",""]}/>
             </div>}
             {isMobile && <div className="Antagonist">
                  <Slide arrayItems={["Antagonist","","Antagonist",""]}

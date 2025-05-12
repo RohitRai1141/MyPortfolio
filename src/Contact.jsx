@@ -14,7 +14,7 @@ function Contact() {
             <div className="contact-avatar"></div>
             <div className="white-ractange-attachhment">
                 TALK
-                <a className="contact-mail" href="mailto:vivekprajapati9986@yahoo.com">
+                <a className="contact-mail" href="mailto:rohitrai.26csb@licet.ac.in">
                     {
                         isMobile ?
                             <>
@@ -22,23 +22,17 @@ function Contact() {
 
                             </> :
                             <>
-                                vivekprajapati9986@yahoo.com
+                                rohitrai.26csb@licet.ac.in
                             </>
                     }
                 </a>
             </div>
             <div className="contact-footer">
-                <a href="https://codepen.io/Vivekp1118/">
-                    <i class="fa-brands fa-codepen contact-footer-icon" ></i>
-                </a>
-                <a href="https://github.com/vivekp1118">
+                <a href="https://github.com/RohitRai1141">
                     <i class="fa-brands fa-github contact-footer-icon" ></i>
                 </a>
-                <a href="https://www.linkedin.com/in/vivekp1118/">
+                <a href="https://www.linkedin.com/in/rohitrai-a-29183b335/">
                     <i class="fa-brands fa-linkedin contact-footer-icon" ></i>
-                </a>
-                <a href="https://twitter.com/vivekp1118">
-                    <i class="fa-brands fa-twitter contact-footer-icon" ></i>
                 </a>
             </div>
 

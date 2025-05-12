@@ -52,7 +52,7 @@ function Message() {
         </div>
       )}
       <div className="message-footer">
-        Designed & Developed by Vivek Prajapati
+          © 2025 Rohitrai. All rights reserved.      
       </div>
       <Menu />
       <PageScroller />
